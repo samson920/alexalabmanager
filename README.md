@@ -1,7 +1,7 @@
 # Alexa Lab Manager
 Lambda function, JSON for interaction model, and instructions on how to set up a lab manager Alexa skill. May be hosted on Alexa store in the future.     
 
-**Files**
+**Files**     
 The lambda.js and skillBuilder.json files are used for setup. CSVtoJSON.py is used if you have a CSV file with strings that represents values you would like to store as possible values for a slot. You can run the file on the CSV and it will output a JSON that you can concatenate to the existing JSON to add the slot. 
 
 **Set Up**   
