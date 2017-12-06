@@ -13,7 +13,7 @@ There are a few steps required to get a project like this set up. You must set u
 The above is meant to serve as a reminder for people with experience developing Alexa skills. For details, check the wiki.    
 
 **Usage**   
-The following detail all of the actions of the Alexa skill, and what to say to trigger them.
+The following detail all of the actions of the Alexa skill, and what to say to trigger them. The database representing the inventory/plate management/reminder system will be updated accordingly.
 
 * You can say that you have x mL or x L of a certain reagent.
     * "Tell my lab manager, add x {unit} of {reagent} to my inventory"
