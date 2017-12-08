@@ -2,7 +2,7 @@
 This repo contains the files necessary to set up a local copy of an Alexa-based laboratory inventory/management system. The Alexa skill processes voice queries from a user, and can repsond with answers about the quantity of a certain lab material, as well as provide information about the location of such a material. The user's voice queries also can manipulate the values in the inventory, as well as update the state of plates/wells and their contents/labels.
 
 **Files**     
-The lambda.js and skillBuilder.json files are used for setup. CSVtoJSON.py is used if you have a CSV file with strings that represents values you would like to store as possible values for a slot. You can run the file on the CSV and it will output a JSON that you can concatenate to the existing JSON to add the slot. 
+The lambda.js and skillBuilder.json files are used for setup. CSVtoJSON.py is used if you have a CSV file with strings that represents values you would like to store as possible values for a slot. You can run the file on the CSV and it will output a JSON that you can concatenate to the existing JSON to add the slot. You may wish to do this during set up if you have an excel file that contains all the possible reagents or items in your lab.
 
 **Set Up**   
 There are a few steps required to get a project like this set up. You must set up the following things:
